@@ -1,0 +1,6 @@
+---
+- name: Test
+  tasks:
+    - command: echo ~
+    - command: pwd
+    - command: "echo {{ playbook_dir }}"
